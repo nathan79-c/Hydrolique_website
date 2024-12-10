@@ -8443,4 +8443,11 @@
 html {
     scroll-behavior: smooth;
 }
-   
+  
+/* SIDE BAR */
+/* Sidebar customization */
+aside {
+  height: 100vh; /* Fix sidebar height to the viewport */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+
